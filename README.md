@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="start">
+  Editor de Texto Simples
+</h1>
 
-## Getting Started
+<img width="1280" alt="Editor Thumbnail" src="/public/assets/Editor.png">
 
-First, run the development server:
+## Introdução
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este projeto é um **editor de texto simples** desenvolvido para fins de treinamento em habilidades de programação, com foco em tecnologias modernas e algumas integrações.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Destaques do projeto:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Design elegante e responsivo:** Utilizando [TailwindCSS](https://tailwindcss.com/) e componentes acessíveis com [Shadcn UI](https://ui.shadcn.dev/).
+- **Experiência de escrita otimizada:** Com o editor de rich text utilizando [Tiptap](https://tiptap.dev/), garantindo flexibilidade e extensibilidade.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tecnologias Utilizadas
 
-## Learn More
+- **[Next.js](https://nextjs.org/):** Framework React que oferece **SSR**, **rotas dinâmicas** e **otimização de desempenho**.
+- **[TailwindCSS](https://tailwindcss.com/):** Framework de CSS utilitário que proporciona **estilização rápida** e **design responsivo**.
+- **[Shadcn UI](https://ui.shadcn.dev/):** Conjunto de **componentes acessíveis e personalizáveis**, garantindo uma interface intuitiva e de fácil navegação.
+- **[Tiptap](https://tiptap.dev/):** Editor de rich text altamente **personalizável** e **extensível**, permitindo criar experiências de edição ricas.
 
-To learn more about Next.js, take a look at the following resources:
+## Início Rápido
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Pré-requisitos
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Certifique-se de ter as seguintes ferramentas instaladas no seu ambiente:
 
-## Deploy on Vercel
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+- [npm](https://www.npmjs.com/), [Yarn](https://yarnpkg.com/), [pnpm](https://pnpm.io/) ou [Bun](https://bun.sh/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Passos para rodar o projeto:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clonar o repositório:**
+
+   ```bash
+   git clone https://github.com/VncsRaniery/rich-text-editor
+   cd rich-text-editor
+   ```
+
+2. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
+
+3. **Execute o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+
+3. **Abra seu navegador e navegue até http://localhost:3000 para ver o site em ação.**
+---
